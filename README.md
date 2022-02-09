@@ -6,7 +6,7 @@ Python Object Notation (PON) Parser
 
 There is JSON for JavaScript Object Notation. Python can parse JSON files.
 
-When Python prints an object, it appears similar to JSON, but slightly different. What if you want to read the output of something that was printed by Python? The best existing option is ast.literal_eval(), which is a safe parser (will not run arbitrary code) and you should probably use that. But that can be slow, and for large strings it can overflow the stack. This project might eventually be better than that. For now it is beta software.
+When Python prints an object tree of builtin types, it appears similar to JSON, but slightly different. What if you want to read the output of something that was printed by Python? The best existing option is ast.literal_eval(), which is a safe parser (will not run arbitrary code) and you should probably use that. But that can be slow, and for large strings it can overflow the stack. This project might eventually be better than that. For now it is beta software.
 
 ## Status
 
